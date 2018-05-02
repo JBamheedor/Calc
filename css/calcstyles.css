@@ -1,0 +1,73 @@
+
+body {
+  background: url("../img/roman-mager-59976.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: 100%;
+  height: 760px;
+}
+.container-fluid {
+  margin: 150px auto;
+  width: 200px;
+}
+#container {
+  background-color: #dce7e6;
+  border: 2px solid #dce7e6;
+  border-style: outset;
+  border-width: 3px;
+  border-radius: 20px;
+}
+#display {
+  height:50px;
+  margin-top: 20px;
+  background-color: black;
+  border-radius: 5px;
+  border-style: inset;
+  border-width: 5px;
+  width: 96%;
+}
+/*typography*/
+#display {
+  color: white;
+  text-align: right;
+  font-family: 'Supermercado One', cursive, 'Lato', 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+}
+.button {
+  display: inline-block;
+  line-height: 4px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+  border-style: outset;
+  border-width: 3px;
+  margin: 5px;
+}
+/*typography*/
+.digits,
+.mathButtons,
+#clearButton
+{
+  font-family: 'Supermercado One', cursive, 'Lato', 'Raleway', sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+}
+#bottom {
+  margin-bottom: 10px;
+}
+.button:hover {
+  background-color: #a3adac
+}
+.button:active {
+  background-color: #a3adac;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+.row {
+  display: flex;
+  justify-content: center;
+}

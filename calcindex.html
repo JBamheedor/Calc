@@ -7,17 +7,20 @@
 
     <title>Calculator</title>
 
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="Calculator/css/normalize.css">
     <link rel="stylesheet" href="css/calcstyles.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Supermercado+One" rel="stylesheet">
 
   </head>
 
   <body>
-    <div class="container-fluid">
+    <!-- <div class="container-fluid"> -->
       <fieldset id="container">
       		<form name="calculator">
+            <div class="row" id="to">
+
             <input id="display" type="text" name="display" readonly>
+          </div>
               <div class="row" id="top">
                 <input class="button digits" type="button" value="7" onclick="calculator.display.value += '7'">
                 <input class="button digits" type="button" value="8" onclick="calculator.display.value += '8'">
@@ -44,7 +47,7 @@
               </div>
             </form>
         </fieldset>
-    </div><!--end container-fluid calculator-->
+    <!-- </div><!--end container-fluid calculator--> -->
 
 
   </body>

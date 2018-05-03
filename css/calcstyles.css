@@ -8,9 +8,13 @@ body {
 }
 .container-fluid {
   margin: 150px auto;
-  width: 200px;
+  width: 10%;
 }
 #container {
+  margin: 150px auto;
+width: 10%;
+  display: flex;
+  justify-content: center;
   background-color: #dce7e6;
   border: 2px solid #dce7e6;
   border-style: outset;
@@ -24,7 +28,7 @@ body {
   border-radius: 5px;
   border-style: inset;
   border-width: 5px;
-  width: 96%;
+  width: 200px;
 }
 /*typography*/
 #display {
@@ -70,4 +74,13 @@ body {
 .row {
   display: flex;
   justify-content: center;
+}
+/* Making responsive */
+@media only screen and (max-width: 400px) {
+  #display {
+    width: 175px;
+  }
+  .row {
+    width: 175px;
+  }
 }
